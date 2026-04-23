@@ -1,0 +1,18 @@
+Task 
+
+Convert TC-005 into a Playwright script using a test.describe block 
+and test.step markers. Navigate to the login page, provide a 
+valid username while leaving the password field empty, and use a 
+locator to assert that the "Password is required" error message is 
+visible on the screen. 
+
+
+TC005 - 
+
+
+Empty Pass 
+
+Enter username + leave password blank 
+
+Error message: "Password is required" 
+
