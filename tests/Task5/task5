@@ -1,0 +1,5 @@
+Configure your playwright.config.ts with reporter: [['html']] and trace: 'retain-on-failure', then run a test that attempts to click a non-existent ID on the Sauce Demo site. Once the test fails, execute npx playwright show-report and click the trace file to open the interactive Trace Viewer. Use the Timeline and Action tabs to inspect the DOM snapshots and network logs captured at the exact moment of the timeout.
+
+
+
+Done
