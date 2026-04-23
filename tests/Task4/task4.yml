@@ -1,0 +1,7 @@
+Simulate sharding locally by running only the first half of your test suite.
+ Execute the command npx playwright test --shard=1/2 
+ and verify in the terminal output that the total number of tests executed is 
+ approximately 50% of your entire suite
+
+
+ Done and found half of the tests executed. The output showed that 5 out of 10 tests were run, confirming that the sharding command worked as expected.
