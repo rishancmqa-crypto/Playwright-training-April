@@ -1,0 +1,11 @@
+Use a chained locator with strict text matching to verify a precise value. 
+Locate a specific row in a table using its ID or Test ID, 
+then find a percentage or price inside that row using getByText() with the 
+{ exact: true } property. Verify that the test correctly distinguishes 
+between similar values, such as "10%" and "110%", by ensuring only the 
+exact match passes.
+
+
+i used below page
+https://rishancmqa-crypto.github.io/Playwright-Practice-webpages/table.html
+

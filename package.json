@@ -2,7 +2,9 @@
   "name": "playwright-training---zeus",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "codegen:copy": "node scripts/codegen-copy.cjs"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

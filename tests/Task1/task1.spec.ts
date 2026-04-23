@@ -1,7 +1,7 @@
 import { test, expect } from '../../fixtures/login'; // Adjust the path as necessary
 
 
-test.describe.only('Login Page TC005 Test', () => {
+test.describe('Login Page TC005 Test', () => {
 
     test('test', async ({ loginPage }) => {
 
