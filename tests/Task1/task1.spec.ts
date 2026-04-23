@@ -1,4 +1,4 @@
-import { test, expect } from '../../fixtures/login'; // Adjust the path as necessary
+import { test, expect } from '../../fixtures/allFixtures'; // Adjust the path as necessary
 
 
 test.describe('Login Page TC005 Test', () => {

@@ -1,6 +1,6 @@
 import { test, expect } from '../../fixtures/allFixtures';
 
-test.describe.only('test task 2', async () => {
+test.describe('test task 2', async () => {
 
     test('test', async ({ tablePage }) => {
 

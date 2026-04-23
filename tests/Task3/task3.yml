@@ -1,0 +1,8 @@
+Task
+
+Create a single test file containing two test.describe blocks, 
+ensuring the first group has two independent test blocks and the 
+second group has one test block with two internal test.step markers.
+ Run the command npx playwright test and verify in the HTML report that 
+ your tests are logically categorized under their respective suite names 
+ with the sub-steps visible.
