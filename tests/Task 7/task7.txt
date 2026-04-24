@@ -1,0 +1,6 @@
+Task 
+
+Add a beforeEach hook to a new test file that navigates 
+to the Sauce Demo page and enters a username, then write two separate tests—one 
+to check the password field is visible and another to check the login button is 
+enabled—to see how the hook saves you from repeating the navigation and typing steps. 
