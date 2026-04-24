@@ -1,0 +1,3 @@
+Use your test script to fail a network request with a 500 error, 
+then open the Trace Viewer after the test fails to find the red-colored request 
+in the Network tab and inspect its response body.
