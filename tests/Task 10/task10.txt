@@ -1,0 +1,6 @@
+Add a project named firefox to your configuration 
+file and execute it using the --project=firefox flag. Verify in your test 
+results that the execution was successful across this specific browser engine, ensuring cross-browser compatibility. 
+
+
+ans -- npx playwright test --project=firefox
