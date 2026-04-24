@@ -1,0 +1,9 @@
+Task 
+
+Create a test file with three tests, one tagged @fast, one @slow, and one using test.slow(). 
+Practice running only the @fast tests from your terminal, 
+then try running the test.slow() case and verify that it passes even if it exceeds the standard 30-second limit. 
+
+
+
+TIp  - we have to use "" -- npx playwright test --grep "@fast" 
