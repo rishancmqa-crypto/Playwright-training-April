@@ -1,0 +1,4 @@
+Use the context fixture to capture a new tab, 
+perform a fill() action on the child page, and then verify that context.pages().length equals 2. 
+After capturing the new tab, use page.bringToFront() to switch focus back to the original window and perform a 
+final click. 
