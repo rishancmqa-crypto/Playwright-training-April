@@ -1,0 +1,2 @@
+Use page.evaluate() to return the text of the page title directly from the browser's document object 
+and print it to your console. 
